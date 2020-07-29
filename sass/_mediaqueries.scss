@@ -1,0 +1,50 @@
+// Navbar
+@media (min-width: 700px) {
+
+    // .container {    
+    //   flex-direction : column;  
+    // }  
+    .logo {
+        order: 1;
+    }
+
+    .links {
+        order: 3;
+    }
+
+    .buscador {
+        order: 3;
+    }
+}
+
+// HOME slider mobile
+@media (max-width: 718px) {
+    .carousel-item {
+        min-height: 80px !important;
+    }
+
+}
+
+// @media (max-width: 700px) {
+
+//     .primerSlider {
+//         height: 10px;
+//     }
+// }
+
+// texto imgs
+@media (max-width: 700px) {
+    .textoImgs {
+        p {
+            font-size: 1.7rem;
+        }
+    }
+}
+
+
+// CONTACT MAP
+@media (max-width: 700px) {
+    .map {
+        width: 100%;
+    }
+}

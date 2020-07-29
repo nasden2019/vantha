@@ -1,0 +1,32 @@
+nav {
+
+    // logo
+    .l {
+        font-weight: 700;
+    }
+
+    // span barra buscadora
+    .lupa {
+        position: absolute;
+        padding-left: 8px;
+    }
+
+    a {
+        font-size: 1.1rem;
+        color: gray;
+
+        &:hover {
+            color: black;
+        }
+    }
+
+    .buscador {
+        padding: 5px 120px;
+        text-align: center;
+    }
+}
+
+// FOOTER
+footer {
+    padding: 10px 0;
+}

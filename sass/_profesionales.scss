@@ -1,0 +1,80 @@
+.imgsProf {
+    height: 15rem;
+}
+
+.parrafoProf {
+    font-size: 0.9rem;
+    color: gray;
+    padding-top: 15px;
+
+}
+
+.spanLocation {
+    color: gray;
+}
+
+// botones
+.contactProf {
+    border: $botones 1px solid;
+    color: $botones;
+    background: white;
+    padding: 10px 0;
+}
+
+.callProf {
+    background: $botones;
+    color: white;
+    padding: 10px 0;
+    border: none;
+}
+
+// -----------DESKTOP--------
+
+//sidebar
+.sidebarProf {
+    max-width: 20%;
+}
+
+// items sidebar
+.listProf {
+    line-height: 1rem;
+    font-size: 0.9rem;
+}
+
+// boton Search
+.btnProf {
+    background: $botones;
+    color: white;
+    padding: 8px 30px;
+    border: none;
+    border-radius: 10px;
+    margin-left: 25px;
+}
+
+// boton Contact
+.contactProfDeskt {
+    background: white;
+    color: $botones;
+    padding: 8px 53px;
+    border: $botones 1px solid;
+    // border-radius: 10px;
+    margin-left: 25px;
+}
+
+.imgsProf {
+    width: 100%;
+    height: 220px;
+}
+
+// .leftArrow {
+//     margin-left: -25px !important;
+//     background-color: $botones;
+//     border-radius: 50%;
+//     font-size: 0.4rem;
+// }
+
+// .rightArrow {
+//     margin-left: 25px !important;
+//     background-color: $botones;
+//     border-radius: 50%;
+// }

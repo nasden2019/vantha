@@ -1,0 +1,44 @@
+// {
+//     "liveServer.settings.port": 5501
+// }
+
+{
+    "liveSassCompile.settings.excludeList": [
+        "/vendor/**",
+        "**/vendor/**",
+        "**/webroot/plugins/**",
+        "**/webroot/js/**",
+        "**/webroot/css/**",
+        "**/webroot/vendor/**",
+        ".vscode/**"
+    ],
+    "liveSassCompile.settings.formats": [{
+        "extensionName": ".min.css",
+        "format": "compressed",
+        "savePath": "/webroot/css/"
+    }],
+    "liveSassCompile.settings.autoprefix": [
+        "> 1%",
+        "last 2 versions"
+    ],
+    "es6-css-minify.minifyOnSave": "exists",
+    "es6-css-minify.genJSmap": true,
+    "todohighlight.exclude": [
+        "**/node_modules/**",
+        "**/bower_components/**",
+        "**/dist/**",
+        "**/build/**",
+        "**/.vscode/**",
+        "**/.github/**",
+        "**/_output/**",
+        "**/*.min.*",
+        "**/*.map",
+        "**/.next/**",
+        "**/vendor/**",
+        "**/tmp/**",
+        "**/logs/**",
+        "**/plugins/**",
+    ],
+    "html.format.indentInnerHtml": true,
+    "liveServer.settings.port": 5501,
+}

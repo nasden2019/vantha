@@ -1,0 +1,52 @@
+body {
+    background-color: #F4F4F4;
+}
+
+// texto centrado de TODAS las secciones
+.textoSections {
+    padding: 60px 0;
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+//botones 
+.botones {
+    background-color: $botones;
+    padding: 12px 45px;
+    border-radius: 19px;
+    border: none;
+    color: white !important;
+    text-decoration: none;
+
+    &:hover {
+        background: white;
+        color: red !important;
+        text-decoration: none;
+    }
+}
+
+.botonCards {
+    background: transparent;
+    padding: 8px 20px;
+    border-radius: 17px;
+    color: white;
+    font-weight: 700;
+    border: white 1px solid;
+    position: absolute;
+    margin-bottom: 120px;
+
+    &:hover {
+        background: rgb(216, 136, 136);
+        color: white;
+    }
+}
+
+.campoObligatorio,
+.campoNumerico {
+    display: none;
+}
+
+.border {
+    border: red 2px solid;
+}

@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Vantha</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+            integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+            crossorigin="anonymous" />
+        <link rel="stylesheet" href="//stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,600;0,700;0,900;1,400;1,600;1,800&display=swap"
+            rel="stylesheet" />
+        <link rel="stylesheet" href="webroot/css/style.min.css" />
+    </head>
+
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light d-md-none fixed-top">
+            <div class="container">
+                <i class="fas fa-search order-3"></i>
+                <a class="navbar-brand order-2" href="index.html">VANTHA</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav breadcrumb">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Ideas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Stories</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Professionals</a>
+                        </li>
+                    </ul>
+                    <form class="form-inline my-2 my-lg-0">
+                        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" />
+                    </form>
+                </div>
+            </div>
+        </nav>
+
+        <!-- navbar desktop -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light d-md-block d-none fixed-top mb-3">
+            <div class="container">
+                <a class="vanthaLogo" href="index.html">VANTHA</a>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <div class="form-inline my-2 my-lg-0 m-auto">
+                        <!-- position-absolute lupa-->
+                        <span class="lupa">
+                            <i class="fas fa-search"></i>
+                        </span>
+                        <input class="form-control buscador" type="search" placeholder="Search in the store"
+                            aria-label="Search" />
+                    </div>
+                </div>
+                <div>
+                    <span><i class="fab fa-black-tie mr-1"></i><a href="profesionales.html">Professionals</a></span>
+                    <span><i class="fas fa-user-friends mr-1 ml-3"></i><a href="#">Enter</a></span>
+                </div>
+            </div>
+        </nav>
+
+        <!-- mobile -->
+        <section class="mt-5 d-block d-sm-none" style="background: white;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-12">
+                        <h4 class="mt-3">133 Profesionales</h4>
+                        <hr />
+                        <div class="">
+                            <input class="col-12 form-control" type="text" placeholder="Search by name or speciality"
+                                style="border: 1px solid lightgray;" />
+                        </div>
+                        <div class="d-block">
+                            <button type="button" class="dropdown-toggle col-12 form-control" data-toggle="dropdown"
+                                data-display="stati" aria-haspopup="true" aria-expanded="false"
+                                style="border: 1px solid lightgray;">
+                                <span class="">Select a region</span>
+                            </button>
+                            <div class="dropdown-menu dropdown-menu-right">
+                                <button class="dropdown-item" type="button">Action</button>
+                                <button class="dropdown-item" type="button">
+                                    Another action
+                                </button>
+                                <button class="dropdown-item" type="button">
+                                    Something else here
+                                </button>
+                            </div>
+                            <button class="btn btnRegister col-12 col-md-9 mt-3" type="submit">
+                                Register
+                            </button>
+                        </div>
+                        <hr />
+                        <!-- dropdown hacia arriba-->
+                        <div class="d-block">
+                            <button type="button" class="dropdown-toggle col-12 form-control" data-toggle="dropdown"
+                                data-display="stati" aria-haspopup="true" aria-expanded="false"
+                                style="border: 1px solid lightgray;">
+                                <span class="">More Relevant</span>
+                            </button>
+                            <div class="dropdown-menu dropdown-menu-right">
+                                <button class="dropdown-item" type="button">Action</button>
+                                <button class="dropdown-item" type="button">
+                                    Another action
+                                </button>
+                                <button class="dropdown-item" type="button">
+                                    Something else here
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- card slider -->
+        <section class="mt-3 d-sm-none">
+            <div class="container">
+                <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="img/card1.jpg" class="d-block w-100 imgsProf" alt="..." />
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/card2.jpg" class="d-block w-100 imgsProf" alt="..." />
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/card4.jpg" class="d-block w-100 imgsProf" alt="..." />
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/card5.jpg" class="d-block w-100 imgsProf" alt="..." />
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/card6.jpg" class="d-block w-100 imgsProf" alt="..." />
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/card7.jpg" class="d-block w-100 imgsProf" alt="..." />
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+                <div class="mt-4 ml-3">
+                    <img src="img/prof.jpg" alt="" style="width: 4rem;" />
+                    <span class="ml-3">R. Smith York</span>
+                    <div class="parrafoProf">
+                        We enjoy the creative process based on dialogue, we work as a team
+                        with our clients. From the time we build a wall to when a client
+                        tells us his ideas and shares his style with us.
+                    </div>
+                    <div class="mt-3">
+                        <span class="spanLocation">17 projects</span>
+                        <span class="ml-3 spanLocation"><i class="fas fa-thumbtack"></i> California</span>
+                    </div>
+                </div>
+                <!-- btns dentro del container para mantenerlos alineados-->
+                <div class="col-12 d-flex my-3">
+                    <button class="contactProf col-6">Contact</button>
+                    <button class="ml-3 col-6 callProf">Call</button>
+                </div>
+            </div>
+        </section>
+
+        <hr />
+
+        <!-- sidebar -->
+        <section class="mt-md-5 d-none d-sm-block">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-12 ml-md-3">
+
+                        <div class="row">
+                            <!-- <div class="col-md-3 mt-md-3 sidebarProf" style="background: white;">
+                                <h6 class="my-sm-3">Design and construction</h6>
+                                <div class="listProf">
+                                    <p>Arquitects</p>
+                                    <p>Interiorists</p>
+                                    <p>Landcapers</p>
+                                    <p>Construction companies</p>
+                                    <p>
+                                        Illumination design</p>
+                                </div>
+                                <hr>
+                                <div>
+                                    <h6>Services for home</h6>
+                                    <p>Carpenters</p>
+                                    <p>Home automation and multimedia installations</p>
+                                    <p>Solar energy installers</p>
+                                </div>
+                                <hr>
+                                <div>
+                                    <h6>Other Services</h6>
+                                    <p class="pb-sm-4">Photographers</p>
+                                </div>
+                            </div> -->
+
+                            <!-- segunda columna -->
+                            <div class="col-md-10 mt-md-3 ml-sm-4" style="background: white;">
+                                <h4 class="mt-md-4 ml-md-2">133 Professionals</h4>
+                                <hr>
+                                <!-- <div class="row"> -->
+                                <div class="">
+                                    <input type="text" class="col-sm-5" placeholder="Search by name or speciality">
+                                    <input type="text" class="col-sm-4 ml-sm-4" placeholder="City">
+                                    <button class="col-sm-2 btnProf">Search</button>
+                                    <hr>
+                                </div>
+                                <!-- slider -->
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div id="carouselExampleControls5" class="carousel slide carruselProf"
+                                            data-ride="false">
+                                            <div class="carousel-inner">
+                                                <div class="carousel-item active">
+                                                    <img src="img/card7.jpg" class="d-block imgsProf" alt="..." />
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img src="img/card6.jpg" class="d-block imgsProf" alt="..." />
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img src="img/card4.jpg" class="d-block imgsProf" alt="..." />
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img src="img/card3.jpg" class="d-block imgsProf" alt="..." />
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img src="img/card6.jpg" class="d-block imgsProf" alt="..." />
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img src="img/card1.jpg" class="d-block imgsProf" alt="..." />
+                                                </div>
+                                            </div>
+                                            <a class="carousel-control-prev" href="#carouselExampleControls5"
+                                                role="button" data-slide="prev">
+                                                <span class="carousel-control-prev-icon ml-md-1 leftArrow"
+                                                    aria-hidden="true"></span>
+                                                <span class="sr-only">Previous</span>
+                                            </a>
+                                            <a class="carousel-control-next" href="#carouselExampleControls5"
+                                                role="button" data-slide="next">
+                                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                <span class="sr-only">Next</span>
+                                            </a>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-3 d-flex justify-content-center align-items-center">
+                                        <img src="img/prof.jpg" alt="" style="width: 4rem;">
+                                        <span class="ml-md-2"> R.Smith York</span>
+                                    </div>
+
+                                    <div class="col-md-3 d-flex justify-content-center align-items-center">
+                                        <button class="contactProfDeskt ml-md-4">Contact</button>
+                                    </div>
+
+                                    <div class="mt-md-3 ml-md-3 spanLocation">
+                                        <span><i class="fas fa-phone-volume"></i> 619-873-5434</span>
+                                        <span class="mx-5">31 Projects</span>
+                                        <span><i class="fas fa-thumbtack"></i> Queens, Ny</span>
+                                    </div>
+                                </div>
+                                <hr>
+
+                                <!-- segundo slider -->
+                                <div class="row">
+                                    <!-- <div class="col-md-9">
+                                        <div class="row"> -->
+                                    <div class="col-md-6">
+                                        <div id="carouselExampleControls2" class="carousel slide carruselProf"
+                                            data-ride="false">
+                                            <div class="carousel-inner">
+                                                <div class="carousel-item active">
+                                                    <img src="img/card4.jpg" class="d-block imgsProf" alt="..." />
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img src="img/card3.jpg" class="d-block imgsProf" alt="..." />
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img src="img/card5.jpg" class="d-block imgsProf" alt="..." />
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img src="img/card6.jpg" class="d-block imgsProf" alt="..." />
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img src="img/card5.jpg" class="d-block imgsProf" alt="..." />
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img src="img/card5.jpg" class="d-block imgsProf" alt="..." />
+                                                </div>
+                                            </div>
+                                            <a class="carousel-control-prev" href="#carouselExampleControls2"
+                                                role="button" data-slide="prev">
+                                                <span class="carousel-control-prev-icon ml-md-1 leftArrow"
+                                                    aria-hidden="true"></span>
+                                                <span class="sr-only">Previous</span>
+                                            </a>
+                                            <a class="carousel-control-next" href="#carouselExampleControls2"
+                                                role="button" data-slide="next">
+                                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                <span class="sr-only">Next</span>
+                                            </a>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-3 d-flex justify-content-center align-items-center">
+                                        <img src="img/logoProf2.jpg" alt="" style="width: 4rem;">
+                                        <span class="ml-md-2"> Sally Mergs</span>
+                                    </div>
+
+                                    <div class="col-md-3 d-flex justify-content-center align-items-center">
+                                        <button class="contactProfDeskt ml-md-4">Contact</button>
+                                    </div>
+                                    <div class="mt-md-3 ml-md-3 spanLocation">
+                                        <span><i class="fas fa-phone-volume"></i> 973-873-5434</span>
+                                        <span class="mx-5">17 Projects</span>
+                                        <span><i class="fas fa-thumbtack"></i> San Diego, CA</span>
+                                    </div>
+                                </div>
+                                <hr>
+
+                                <!-- third slide-->
+                                <div class="row">
+                                    <!-- <div class="col-md-9">
+                                        <div class="row"> -->
+                                    <div class="col-md-6">
+                                        <div id="carouselExampleControls3" class="carousel slide carruselProf"
+                                            data-ride="false">
+                                            <div class="carousel-inner">
+                                                <div class="carousel-item active">
+                                                    <img src="img/card6.jpg" class="d-block imgsProf" alt="..." />
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img src="img/card5.jpg" class="d-block imgsProf" alt="..." />
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img src="img/card5.jpg" class="d-block imgsProf" alt="..." />
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img src="img/card6.jpg" class="d-block imgsProf" alt="..." />
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img src="img/card5.jpg" class="d-block imgsProf" alt="..." />
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img src="img/card3.jpg" class="d-block imgsProf" alt="..." />
+                                                </div>
+                                            </div>
+                                            <a class="carousel-control-prev" href="#carouselExampleControls3"
+                                                role="button" data-slide="prev">
+                                                <span class="carousel-control-prev-icon ml-md-1 leftArrow"
+                                                    aria-hidden="true"></span>
+                                                <span class="sr-only">Previous</span>
+                                            </a>
+                                            <a class="carousel-control-next" href="#carouselExampleControls3"
+                                                role="button" data-slide="next">
+                                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                <span class="sr-only">Next</span>
+                                            </a>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-3 d-flex justify-content-center align-items-center">
+                                        <img src="img/logoProf2.jpg" alt="" style="width: 4rem;">
+                                        <span class="ml-md-2"> Karen Limo</span>
+                                    </div>
+
+                                    <div class="col-md-3 d-flex justify-content-center align-items-center">
+                                        <button class="contactProfDeskt ml-md-4">Contact</button>
+                                    </div>
+                                    <div class="mt-md-3 ml-md-3 spanLocation">
+                                        <span><i class="fas fa-phone-volume"></i> 518-073-5434</span>
+                                        <span class="mx-5">49 Projects</span>
+                                        <span><i class="fas fa-thumbtack"></i> Utah, Uh</span>
+                                    </div>
+                                </div>
+                                <hr>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- </div>
+            </div> -->
+        </section>
+
+        <!-- PAGINATION -->
+        <section class="d-flex justify-content-center align-items-center mt-md-3">
+            <nav aria-label="Page navigation example">
+                <ul class="pagination">
+                    <!-- <li class="page-item">
+                        <a class="page-link" href="#" aria-label="Previous">
+                            <span aria-hidden="true">&laquo;</span>
+                        </a>
+                    </li> -->
+                    <li class="page-item"><a class="page-link" href="profesionales.html">1</a>
+                    </li>
+                    <li class="page-item"><a class="page-link" href="profesionales2.html">2</a></li>
+                    <li class="page-item"><a class="page-link" href="profesionales3.html">3</a></li>
+                    <li class="page-item"><a class="page-link" href="profesionales4.html">4</a></li>
+                    <!-- <li class="page-item"><a class="page-link" href="#">5</a></li> -->
+                    <!-- <li class="page-item">
+                        <a class="page-link" href="#" aria-label="Next">
+                            <span aria-hidden="true">&raquo;</span>
+                        </a>
+                    </li> -->
+                </ul>
+            </nav>
+        </section>
+
+
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+        </script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+        </script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+            integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
+        </script>
+        <script src="https://kit.fontawesome.com/b4c1b7834a.js" crossorigin="anonymous"></script>
+    </body>
+
+</html>
